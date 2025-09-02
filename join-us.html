@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+		<a href="../gym">
+			<img src="gym.png" alt="Toby's Gym Logo" style="max-width: 200px;">
+		</a>
+		<h1>Toby's Gym</h1>
+		<nav class="navbar">
+			<a href="index.html">Home</a>
+			<a href="booking.html">Booking</a>
+			<a href="contact-us.html">Contact Us</a>
+			<a href="join-us.html">Join</a>
+		</nav>
+	</header>
+    <main class="content">
+		<h1>Join Our Gym</h1>
+		<div class="form-container">
+			<form action="/submit-join" method="post">
+				<label for="name">Full Name:</label>
+				<input type="text" id="name" name="name" required placeholder="Enter your name">
+
+				<label for="email">Email Address:</label>
+				<input type="email" id="email" name="email" required placeholder="Enter your email">
+
+				<label for="phone">Phone Number:</label>
+				<input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+				<label for="membership">Membership Type:</label>
+				<select id="membership" name="membership" required>
+					<option value="monthly">Monthly Membership</option>
+					<option value="quarterly">Quarterly Membership</option>
+					<option value="annual">Annual Membership</option>
+				</select>
+
+				<button type="submit">Join Now</button>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<a href="https://www.facebook.com/tobysgym" target="_blank">Facebook</a>
+		<a href="https://www.instagram.com/tobysgym" target="_blank">Instagram</a>
+		<a href="copyright.html">Copyright</a>
+		<a href="accessibility.html">Accessibility</a>
+		<a href="terms-and-conditions.html">Terms and Conditions</a>
+		<a href="faqs.html">FAQs</a>
+		<a href="privacy-policy.html">Privacy Policy</a>
+	</footer>
+</body>
+</html>
